@@ -22,5 +22,6 @@ export default class Test extends Vue {
     console.log(r)
     this.txt = '111'
   }
+  
 }
 </script>
