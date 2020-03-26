@@ -30,7 +30,7 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ['@/plugins/moment'],
   /*
    ** Nuxt.js dev-modules
    */
@@ -40,7 +40,8 @@ module.exports = {
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    'vuetify-dialog/nuxt'
   ],
   /*
    ** Axios module configuration
@@ -77,5 +78,5 @@ module.exports = {
      */
     extend(config, ctx) {}
   },
-  serverMiddleware: [{ path: '/api', hendler: '~/api/index.js' }]
+  serverMiddleware: [{ path: '/api', handler: '~/api/index.js' }]
 }
