@@ -1,7 +1,6 @@
 # my-app!
 
 > My swell Nuxt.js project!!!!@@
-> My swell Nuxt.js project!
 > my project....
 
 ## Build Setup
